@@ -5,12 +5,13 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  # (Optional) Uncomment the line below and change the path to your own background image
-  # overlay_image: /assets/images/your-background-image.jpg
+  overlay_image: /assets/images/background.jpg
   actions:
     - label: "View My Research"
       url: "/research/"
     - label: "View My Projects"
       url: "/projects/"
-excerpt: "Welcome! I am a Master's student at UC Santa Barbara passionate about machine learning, model optimization, and scalable AI systems."
+    - label: "View My Work Experience"
+      url: "/work/"
+excerpt: "Welcome! I am a Master's student at UC Santa Barbara passionate about artificial intelligence, especially in Vision-Language Models. My advisor is [Peng Li](https://ece.ucsb.edu/people/peng-li)."
 ---
