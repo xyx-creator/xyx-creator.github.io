@@ -9,3 +9,5 @@ collection: projects
 sort_by: date
 sort_order: reverse
 ---
+
+These are my hands-on technical projects, focusing on AI model optimization, applied computer vision, and building large-scale AI systems.

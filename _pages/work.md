@@ -9,3 +9,5 @@ collection: work
 sort_by: date
 sort_order: reverse
 ---
+
+Here is a summary of my professional roles, research, and internship experiences.

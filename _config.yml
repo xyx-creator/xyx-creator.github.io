@@ -95,7 +95,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
   # _projects
   - scope:
       path: ""
@@ -103,4 +103,4 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false

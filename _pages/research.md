@@ -10,4 +10,6 @@ sort_by: date
 sort_order: reverse
 ---
 
-# 
+My research focuses on Machine Learning, particularly in Vision Language Models (VLMs), model optimization, and scalable AI systems.
+
+Below is a collection of my publications and key research projects.
