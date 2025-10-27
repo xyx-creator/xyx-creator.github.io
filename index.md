@@ -13,5 +13,5 @@ header:
       url: "/projects/"
     - label: "View My Work Experience"
       url: "/work/"
-excerpt: "Welcome! I am a Master's student at UC Santa Barbara passionate about artificial intelligence, especially in Vision-Language Models. My advisor is [Peng Li](https://ece.ucsb.edu/people/peng-li)."
+excerpt: "Welcome! I am a Master's student at UC Santa Barbara focusing on Vision-Language Models, advised by [Peng Li](https://web.ece.ucsb.edu/~lip/). I graduated with First Class Honours from the University of Leeds & Southwest Jiaotong University joint B.S. program."
 ---
