@@ -10,8 +10,6 @@ baseurl: "" # For a user site like 'username.github.io'
 url: "https://xyx-creator.github.io" # Your site's full URL
 twitter_username: # Add your Twitter handle if you have one
 github_username: xyx-creator
-minimal_mistakes_skin: default
-search: true
 timezone: America/Los_Angeles # Recommended: Set your timezone
 
 # Analytics
@@ -20,31 +18,26 @@ analytics:
   google:
     tracking_id: "" # Add your Google Analytics tracking ID here (e.g. UA-1234567-8)
 
-
 # -----------------------------------------------
 # Build settings
 # -----------------------------------------------
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 include:
   - _pages
 
 # -----------------------------------------------
 # Plugins
 # -----------------------------------------------
-# These are the plugins Minimal Mistakes needs to run
 plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme  # Required for using remote_theme
-  - jekyll-seo-tag       # Required by Minimal Mistakes
+  - jekyll-seo-tag
 
 # -----------------------------------------------
-# Collections (The most important new section)
+# Collections
 # -----------------------------------------------
-# Define your new content types
 collections:
   work:
     output: true
@@ -57,59 +50,41 @@ collections:
     permalink: /projects/:path/
 
 # -----------------------------------------------
-# Author & Footer
+# Author
 # -----------------------------------------------
 author:
   name: "Yuxuan Xia"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Master's student at UC Santa Barbara (ECE), focusing on Vision Language Models and scalable AI systems."
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:xyxchengdu@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/xyx-creator"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/xyx-creator"
+  email: "xyxchengdu@gmail.com"
+  github: "https://github.com/xyx-creator"
+  linkedin: "" # Add your LinkedIn URL
+  scholar: "" # Add your Google Scholar URL
 
 # -----------------------------------------------
 # Defaults
 # -----------------------------------------------
-# Set default layouts for your new collections
 defaults:
-  # _pages
+  - scope:
+      path: ""
+    values:
+      layout: default
   - scope:
       path: "_pages"
-      type: pages
     values:
-      layout: single
-      author_profile: true
-  # _work
+      layout: page
   - scope:
       path: ""
       type: work
     values:
-      layout: single
-      author_profile: true
-      share: false
-  # _research
+      layout: post
   - scope:
       path: ""
       type: research
     values:
-      layout: single
-      author_profile: true
-      share: false
-  # _projects
+      layout: post
   - scope:
       path: ""
       type: projects
     values:
-      layout: single
-      author_profile: true
-      share: false
+      layout: post

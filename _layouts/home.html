@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<section class="hero">
+  {% if site.author.avatar %}
+  <div class="flex-center">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-avatar">
+  </div>
+  {% endif %}
+  
+  <h1>{{ site.author.name }}</h1>
+  <p>{{ site.author.bio }}</p>
+  
+  <div class="flex-center">
+    {% if site.author.github %}
+    <a href="{{ site.author.github }}" class="btn btn-outline" style="margin-right: 1rem;">GitHub</a>
+    {% endif %}
+    {% if site.author.email %}
+    <a href="mailto:{{ site.author.email }}" class="btn btn-primary">Contact Me</a>
+    {% endif %}
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Selected Projects</h2>
+  <div class="bento-grid">
+    {% for project in site.projects limit:4 %}
+    <a href="{{ project.url | relative_url }}" class="bento-card">
+      <div class="bento-header">
+        <h3>{{ project.title }}</h3>
+        <p class="text-sm text-muted">{{ project.date | date: "%B %Y" }}</p>
+      </div>
+      <p>{{ project.excerpt | strip_html | truncate: 120 }}</p>
+      <div class="bento-footer">
+        <span class="btn btn-outline text-sm">View Project &rarr;</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="flex-center mb-4">
+    <a href="{{ '/projects/' | relative_url }}" class="btn btn-outline">View All Projects</a>
+  </div>
+</section>
+
+<section id="research" class="container">
+  <h2>Recent Research</h2>
+  <div class="bento-grid">
+    {% for paper in site.research limit:2 %}
+    <a href="{{ paper.url | relative_url }}" class="bento-card span-2">
+      <div class="bento-header">
+        <h3>{{ paper.title }}</h3>
+      </div>
+      <p>{{ paper.excerpt | strip_html | truncate: 200 }}</p>
+      <div class="bento-footer">
+        <span class="btn btn-outline text-sm">Read Paper &rarr;</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="flex-center mb-4">
+    <a href="{{ '/research/' | relative_url }}" class="btn btn-outline">View All Research</a>
+  </div>
+</section>
+
+<section id="work" class="container">
+    <h2>Work Experience</h2>
+    <div class="bento-grid">
+      {% for job in site.work limit:3 %}
+      <div class="bento-card">
+        <h3>{{ job.title }}</h3>
+        <p class="text-muted">{{ job.company }} • {{ job.date_label }}</p>
+        <p>{{ job.excerpt | strip_html | truncate: 100 }}</p>
+        <a href="{{ job.url | relative_url }}" class="text-sm">Read more &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+</section>
