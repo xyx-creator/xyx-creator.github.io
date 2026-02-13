@@ -3,14 +3,23 @@
 # -----------------------------------------------
 title: Yuxuan's Website
 email: xyxchengdu@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Yuxuan Xia's personal website.
+description: >-
+  Yuxuan Xia's personal website. Master's student at UC Santa Barbara (ECE), focusing on Vision Language Models and scalable AI systems. Portfolio of research, projects, and work experience.
+keywords: ["Yuxuan Xia", "UCSB", "ECE", "Vision Language Models", "AI", "Machine Learning", "Computer Vision", "Deep Learning", "Software Engineering"]
 baseurl: "" # For a user site like 'username.github.io'
 url: "https://xyx-creator.github.io" # Your site's full URL
+twitter_username: # Add your Twitter handle if you have one
 github_username: xyx-creator
 minimal_mistakes_skin: default
 search: true
 timezone: America/Los_Angeles # Recommended: Set your timezone
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "" # Add your Google Analytics tracking ID here (e.g. UA-1234567-8)
+
 
 # -----------------------------------------------
 # Build settings

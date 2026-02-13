@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xyx-creator.github.io/sitemap.xml
