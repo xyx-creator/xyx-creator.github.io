@@ -52,19 +52,18 @@ a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
 a:hover { text-decoration: underline; color: var(--accent-hover); }
 img { max-width: 100%; display: block; border-radius: 4px; }
 
-/* Layout: Sidebar + Content */
+/* Layout: Sidebar + Content using CSS Grid */
 .site-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 300px 1fr;
   min-height: 100vh;
 }
 
 /* Sidebar Styles */
 .sidebar {
-  width: 300px;
   background-color: var(--bg-sidebar);
   border-right: 1px solid var(--border);
   padding: 2rem;
-  flex-shrink: 0;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -119,22 +118,24 @@ img { max-width: 100%; display: block; border-radius: 4px; }
 
 /* Main Content Area */
 .main-content {
-  flex-grow: 1;
   padding: 3rem 4rem;
   max-width: 1000px; /* Limit width for readability */
 }
 
 /* Responsive: Mobile */
 @media (max-width: 900px) {
-  .site-wrapper { flex-direction: column; }
+  .site-wrapper {
+    grid-template-columns: 1fr;
+  }
+  
   .sidebar {
-    width: 100%;
-    height: auto;
     position: relative;
+    height: auto;
     border-right: none;
     border-bottom: 1px solid var(--border);
     padding: 2rem 1rem;
   }
+  
   .main-content { padding: 2rem 1rem; }
 }
 
@@ -203,4 +204,41 @@ p { margin-bottom: 1.25rem; }
   border-top: 1px solid var(--border);
   color: var(--text-tertiary);
   font-size: 0.875rem;
+}
+
+/* Bento Grid System (Reused for Projects) */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.bento-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.bento-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.bento-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 0;
 }
