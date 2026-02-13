@@ -1,0 +1,42 @@
+/* Table Styles */
+.table-wrapper {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  border-top: 2px solid var(--text-primary);
+  border-bottom: 2px solid var(--text-primary);
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Minimal borders for three-line table effect */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Vertical dividers for groups */
+.group-divider {
+  border-right: 1px solid var(--border);
+}
+
+/* Specific alignments */
+td:first-child, th:first-child {
+  text-align: left;
+}
+
+.bold {
+  font-weight: 700;
+}
