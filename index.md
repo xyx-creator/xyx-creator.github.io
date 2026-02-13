@@ -18,11 +18,6 @@ My research interests lie at the intersection of Computer Vision and Natural Lan
   {% assign target_papers = "2026-01-07-sdcd,2025-12-12-vegas" | split: "," %}
   {% assign research_papers = site.research | where_exp: "item", "target_papers contains item.slug" | sort: 'date' | reverse %}
   
-  {% comment %} Fallback: if slug matching fails, just show the latest 2 {% endcomment %}
-  {% if research_papers.size == 0 %}
-    {% assign research_papers = site.research | sort: 'date' | reverse | limit: 2 %}
-  {% endif %}
-
   {% for paper in research_papers %}
   <li class="paper-item">
     <a href="{{ paper.url | relative_url }}" class="paper-title">{{ paper.title }}</a>
