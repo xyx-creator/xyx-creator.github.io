@@ -20,13 +20,6 @@ If you’re interested in my work or would like to collaborate, feel free to rea
 
 ---
 
-## Research Highlights
-
-* **VEGAS**: An adaptive steering mechanism that calibrates visual attention weights during inference, achieving a **20-point CHAIR improvement** by suppressing linguistic priors.  
-* **SDCD**: A contrastive decoding framework that isolates structural biases via spatially shuffled negative views, achieving a **6% F1 score improvement** on the POPE benchmark.
-
----
-
 ## Selected Research
 
 <ul class="paper-list">

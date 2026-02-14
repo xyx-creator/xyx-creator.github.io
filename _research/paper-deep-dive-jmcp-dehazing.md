@@ -1,6 +1,6 @@
 ---
 title: "Joint Median Channel Prior and Edge Enhancement for Single Image Dehazing"
-date: 2025-10-26 18:30:00 -0700
+date: 2023-08-18 00:00:00 -0700
 categories: [Research, Computer Vision]
 tags: [Dehazing, Image Processing, PRAI 2023, Publication]
 ---
