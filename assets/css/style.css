@@ -199,6 +199,36 @@ p { margin-bottom: 1.25rem; }
   text-decoration: none;
 }
 
+/* Icon Buttons for Sidebar */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.btn-icon:hover {
+  color: var(--accent);
+  background-color: var(--bg-primary);
+  border-color: var(--border);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
 /* Footer */
 .site-footer {
   margin-top: 4rem;
