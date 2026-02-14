@@ -3,15 +3,14 @@ permalink: /about/
 title: "About"
 ---
 
-Hello, I'm Yuxuan Xia.
+Hi there👋! I’m **Yuxuan Xia**, a Master's student in the Department of Electrical & Computer Engineering at the University of California, Santa Barbara, where I work with Prof. Peng Li. I received my Bachelor of Science in Computer Science through a joint program between Southwest Jiaotong University and the University of Leeds, graduating with First Class Honours from the University of Leeds.
 
-I am currently a Master's student in the Department of Electrical & Computer Engineering at the University of California, Santa Barbara. I completed my Bachelor of Science in Computer Science through a joint program between Southwest Jiaotong University and the University of Leeds, graduating with First Class Honours from the University of Leeds.
+**Next Step:** In Fall 2026, I will join the [ND-VIS Lab] at the University of Notre Dame as a Ph.D. student, advised by Prof. Chaoli Wang.
 
-Currently, I am a Student Researcher at Peng Li's Lab, where I focus on investigating and mitigating hallucinations in Vision Language Models (VLMs) by correcting erroneous attention mechanisms. I also work as an AI Data Annotator (CS Fellow) at Handshake AI, constructing high-level computer science datasets for LLM instruction tuning.
+My research interests lie at the intersection of **Computer Vision** and **Natural Language Processing**, with a particular focus on **Vision-Language Models** and **Visualization**. I develop trustworthy multimodal systems that make complex visual-linguistic reasoning more intuitive, expressive, and accessible to broader audiences. A key part of my current work involves mitigating hallucinations in Large Vision-Language Models (LVLMs) by building attention-calibration mechanisms and contrastive-decoding frameworks.
 
-My research and project experience spans both machine learning and software engineering:
+More broadly, I’m excited about **AI + VIS**.
 
-* **Machine Learning & AI:** I have designed and implemented AI agents for healthcare using LangChain and RAG, implemented Zero-Order (ZO) optimization for gradient-agnostic models, and researched optimization techniques for Tensorized Transformers.
-* **Algorithm & Software Development:** I have worked as an Algorithm Engineer designing TDOA (Time Difference of Arrival) localization algorithms using MATLAB and C++. I also have full-stack experience developing with Vue.js and Spring Boot, and experience deploying YOLOv5s models on edge devices like the Nvidia Jetson Nano.
+If you’re interested in my work or would like to collaborate, feel free to reach out at [yxia6@nd.edu](mailto:yxia6@nd.edu).
 
-I am proficient in programming languages including Python, C/C++, Java, and JavaScript, and skilled in frameworks such as PyTorch, CUDA, Hugging Face, Vue.js, and Spring Boot.
+### [Download CV (PDF), updated on Jan 8, 2026](/assets/Yuxuan_CV_newest_01082026.pdf){: .btn}
