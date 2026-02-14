@@ -17,20 +17,3 @@ More broadly, I’m excited about **HCI + VIS + AI**, interfaces for generative 
 If you’re interested in my work or would like to collaborate, feel free to reach out at [xyxchengdu@gmail.com](mailto:xyxchengdu@gmail.com).
 
 ### [Download CV (PDF), updated on Jan 8, 2026](/assets/Yuxuan_CV_newest_01082026.pdf){: .btn}
-
----
-
-## Recent Projects
-
-<div class="bento-grid" style="margin-top: 1rem;">
-  {% for project in site.projects limit:3 %}
-    <a href="{{ project.url | relative_url }}" class="bento-card">
-      <div class="bento-header">
-        <h3>{{ project.title }}</h3>
-      </div>
-      <p>{{ project.excerpt | strip_html | truncate: 100 }}</p>
-    </a>
-  {% endfor %}
-</div>
-
-[View All Projects](/projects/){: .btn}
