@@ -12,8 +12,8 @@ I’m a Master's student in the Department of Electrical & Computer Engineering 
 
 My research interests lie at the intersection of **Computer Vision** and **Natural Language Processing**, with a particular focus on **Vision-Language Models** and **Visualization**. I develop trustworthy multimodal systems that make complex visual-linguistic reasoning more intuitive, expressive, and accessible to broader audiences. A key part of my current work involves mitigating hallucinations in Large Vision-Language Models (LVLMs) by building attention-calibration mechanisms and contrastive-decoding frameworks.
 
-More broadly, I’m excited about **HCI + VIS + AI**, interfaces for generative and multimodal models, 3D/4D data interaction, agentic workflows, and the future of intelligent, mixed-initiative visualization systems.
+More broadly, I’m excited about **AI + VIS**.
 
-If you’re interested in my work or would like to collaborate, feel free to reach out at [xyxchengdu@gmail.com](mailto:xyxchengdu@gmail.com).
+If you’re interested in my work or would like to collaborate, feel free to reach out at [yxia6@nd.edu](mailto:yxia6@nd.edu).
 
 ### [Download CV (PDF), updated on Jan 8, 2026](/assets/Yuxuan_CV_newest_01082026.pdf){: .btn}

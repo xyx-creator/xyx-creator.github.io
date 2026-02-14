@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------
 title: Yuxuan's Website
-email: xyxchengdu@gmail.com
+email: yxia6@nd.edu
 description: >-
   Yuxuan Xia's personal website. Master's student at UC Santa Barbara (ECE), focusing on Vision Language Models and scalable AI systems. Portfolio of research, projects, and work experience.
 keywords: ["Yuxuan Xia", "UCSB", "ECE", "Vision Language Models", "AI", "Machine Learning", "Computer Vision", "Deep Learning", "Software Engineering"]
@@ -56,7 +56,7 @@ author:
   name: "Yuxuan Xia"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Master's student at UC Santa Barbara (ECE), focusing on Vision Language Models and scalable AI systems."
-  email: "xyxchengdu@gmail.com"
+  email: "yxia6@nd.edu"
   github: "https://github.com/xyx-creator"
   linkedin: "" # Add your LinkedIn URL
   scholar: "https://scholar.google.com/citations?user=PkTL7p4AAAAJ&hl=en&oi=sra" # Google Scholar URL
