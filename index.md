@@ -20,28 +20,6 @@ If you’re interested in my work or would like to collaborate, feel free to rea
 
 ---
 
-## Selected Research
-
-<ul class="paper-list">
-  {% assign target_papers = "2026-01-07-sdcd,2025-12-12-vegas" | split: "," %}
-  {% assign research_papers = site.research | where_exp: "item", "target_papers contains item.slug" | sort: 'date' | reverse %}
-  
-  {% for paper in research_papers %}
-  <li class="paper-item">
-    <a href="{{ paper.url | relative_url }}" class="paper-title">{{ paper.title }}</a>
-    <div class="paper-meta">{{ paper.date | date: "%B %Y" }}</div>
-    <div class="paper-excerpt">{{ paper.excerpt }}</div>
-    <div class="paper-links">
-      <a href="{{ paper.url | relative_url }}" class="btn">Read Paper</a>
-    </div>
-  </li>
-  {% endfor %}
-</ul>
-
-[View All Research](/research/){: .btn}
-
----
-
 ## Recent Projects
 
 <div class="bento-grid" style="margin-top: 1rem;">
